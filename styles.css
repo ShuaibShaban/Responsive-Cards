@@ -28,21 +28,14 @@ body {
   flex-direction: column;
 }
 
-header,
-nav,
-main,
-footer {
-  display: grid;
-  place-content: center;
-  grid-template-columns: 100%;
-  text-align: center;
-}
 
 header,
 footer {
   position: sticky;
   background-color: #1e293b;
   color: whitesmoke;
+  /* added style */
+  text-align: center;
 }
 
 header {
@@ -51,10 +44,13 @@ header {
 
 nav {
   background-color: #fff;
-  color: #000;
   padding: 0.5rem;
   border-bottom: 2px solid #000;
+
 }
+
+
+
 
 main {
   flex-grow: 1;
